@@ -1,0 +1,23 @@
+.main-header_menu {
+    transition: all 0.3s;
+
+    .main-header_logo,
+    .main-header_nav,
+    .main-header_phone {
+        transition: all 0.3s;
+    }
+}
+
+.main-header_menu--active {
+    background-color: white;
+
+    .main-header_logo,
+    .main-header_nav,
+    .main-header_phone {
+        color: rgba(234, 88, 12, 1);
+    }
+
+    .main-header_mobile-bar .fa-bars {
+        color: rgba(234, 88, 12, 1);
+    }
+}

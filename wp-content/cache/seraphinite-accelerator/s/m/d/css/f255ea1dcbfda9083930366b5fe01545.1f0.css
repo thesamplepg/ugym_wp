@@ -1,0 +1,20 @@
+.main-header_menu {
+  transition: all 0.3s;
+}
+.main-header_menu .main-header_logo,
+.main-header_menu .main-header_nav,
+.main-header_menu .main-header_phone {
+  transition: all 0.3s;
+}
+
+.main-header_menu--active {
+  background-color: white;
+}
+.main-header_menu--active .main-header_logo,
+.main-header_menu--active .main-header_nav,
+.main-header_menu--active .main-header_phone {
+  color: rgb(234, 88, 12);
+}
+.main-header_menu--active .main-header_mobile-bar .fa-bars {
+  color: rgb(234, 88, 12);
+}

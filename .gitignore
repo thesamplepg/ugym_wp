@@ -1,0 +1,9 @@
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+node_modules/
+**/node_modules/
